@@ -1,0 +1,23 @@
+nota_1 = 5
+nota_2 = 3
+nota_3 = 6
+
+media = (nota_1 + nota_2 + nota_3)/3
+print("Média: ", media)
+
+aprovado = media >= 7
+recuperacao = media >= 5 and media < 7
+reprovado = media < 5
+
+resultado = (media>=7 and print('Aprovado!')) or (media>=5 and media<7 and print('Recuperação!')) or (media<5 and print('Reprovado!'))
+
+#ou
+
+print('Situação do aluno: ')
+print('Aprovado: ')
+print(aprovado)
+print('Recuperação: ')
+print(recuperacao)
+print('Reprovado: ')
+print(reprovado)
+
