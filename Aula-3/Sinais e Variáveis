@@ -1,0 +1,31 @@
+# dados literais (não são guardados na memória)
+
+# Toda palavra seguida de parênteses é uma função (uma ação, um proceso, faz algo)
+
+# dados primitivos
+
+print(type(10))
+print(type("strings ==  textos"))
+print(type(10 + 2)) # int inteiro
+print(type(5.5 - 1.2)) # float real
+print(type(False)) # boleanos
+
+# operações aritméticas
+
+print(10 + 2) # soma
+print(10 - 2) # subtração
+print(10 * 2) # multiplicação
+print(10.0 / 2) # divisão
+print(10 // 2) # divisão inteira
+print(10 % 2) # módulo (resto da divisão)
+print(10 ** 2) # potência
+
+# operações lógicas
+
+print(10 > 2) # maior ?
+print(10 < 2) # menor ?
+print(10 >= 2) # maior OU igual ?
+print(10 <= 2) # menor OU igual ?
+print(10 == 2) # é igual? 
+print(10 != 2) # é diferente?
+
