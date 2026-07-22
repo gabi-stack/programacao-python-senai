@@ -1,0 +1,48 @@
+# ATIVIDADE
+# Utilize as 5 concatenações e variáveis. 
+
+# 1 Imprima uma mensagem de boas-vindas na tela.
+nome = input('Seu nome: ')
+print('Seja bem-vinda, ' + nome +'!')
+
+# 2 Declare uma variável booleana verdadeiro com o valor True e imprima seu tipo
+n1 = 5
+n2 = 5
+print('5 é igual a 5? {}' .format(n1 == n2))
+
+# 3 Imprima o resultado da multiplicação de dois números decimais de sua escolha
+n3 = 13.46
+n4 = 2.3
+print('13.46 vezes 2.3 é', n3*n4)
+
+# 4 Imprima o resultado da divisão (/)de dois números inteiros de sua escolha.
+n5 = 17
+n6 = 4
+print('17 dividido por 4 é', n5/n6)
+
+# 5 Imprima o resultado da subtração de dois números inteiros de sua escolha
+n7 = 50
+n8 = 10
+print('50 menos 10 é {}'.format(n7-n8))
+
+# 6 Imprima o resultado da divisão (//)inteira de dois números inteiros de sua escolha.
+print('A divisão inteira entre 17 e 4 é', 17//4)
+
+# 7 Imprima o resultado da multiplicação de 4 números decimais de sua escolha
+print('1x2x3x4 é %d'% (1*2*3*4))
+
+# 8 Declare uma variável numero e atribua um número inteiro. Em seguida, imprima o dobro desse número
+numero = 150
+print(f'O dobro de 150 é {numero*2}')
+
+# 9 Crie um sistema de cadastro com as estruturas que vc já conhece (Use apenas input, print e variavel): nome, email, idade, cidade, gradução, estado civil 
+print('Realize seu cadastro')
+nome = input('Digite seu nome: ')
+email = input('Seu email: ')
+idade = int(input('Sua idade: '))
+cidade = input('Cidade em que vive: ')
+graduacao = (input('Qual sua graduação: '))
+estCivil = input('Qual o seu estado civil: ')
+print()
+print('Cadastro Realidzado!')
+print(f'Nome: {nome} \nEmail: {email} \nIdade: {idade} \nCidade: {cidade} \nGraduação: {graduacao} \nEstado Civil: {estCivil}')
