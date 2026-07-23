@@ -1,0 +1,27 @@
+# FUNÇÕES BUILT IN 
+
+print('objeto', sep=' ', end='\n', file=None, flush=False)
+
+lista = [10, 6, 3, 9, 12]
+lista.sort() # método
+print(sorted(lista)) # função
+
+nome = input("Qual é o seu nome? ")
+
+texto = "Python"
+comprimento = len(texto) 
+
+x = 5
+tipo = type(x) 
+
+numero = int("42")    # Converte uma string para um número inteiro
+texto = str(3.14)     # Converte um número de ponto flutuante para uma string
+
+numeros = range(1, 6)  
+
+numeros = [1, 2, 3, 4, 5]
+soma = sum(numeros)
+
+numeros = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+minimo = min(numeros)  # Isso irá retornar 1
+maximo = max(numeros)  # Isso irá retornar 9
