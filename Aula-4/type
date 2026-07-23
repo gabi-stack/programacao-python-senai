@@ -1,0 +1,7 @@
+# type
+numero = 10
+tipo2 =  type(numero)
+print(numero, tipo2)
+transformar  =  bool(numero)
+tipo =  type(transformar)
+print(transformar, tipo)
