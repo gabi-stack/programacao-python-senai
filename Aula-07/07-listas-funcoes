@@ -1,33 +1,50 @@
 # LISTAS
 
-var  =  10
 lista  = [1,2,3]
 
-# inserir dados
-lista[1] = [1,0,0,5] # 1 dad0 ou lista
-lista.append(10) # inserir no final da lista, um valor ou lista
+# INSERIR DADOS
+print('INSERIR DADOS')
+lista.append(10) # inserir no final da lista
+print(lista)
 lista.insert(0,150) # inserir no indice indicado
-lista.extend([1,2,3,5,5,6,4,5,5]) # inserir varios dados de uma vez  ou lista
-lista += (1,5,6,6,98,6)# inserir varios dados de uma vez  ou lista
+print(lista)
+lista.extend([1,2,3,5,5,6,4,5,5]) # inserir varios dados de uma vez
+print(lista)
+lista += (1,5,6,6,98,6) # inserir varios dados de uma vez 
+print(lista)
+print()
 
-# deletar dados
-lista.remove(150) # remove a partir do dado que vc vê 
+# REMOVER DADOS
+print('REMOVER DADOS')
+lista.remove(150) # remove o valor
+print(lista) 
 lista.pop() # remove o último valor
-lista.pop(0) # remove o valor que esta posicionado no indice declarado
-del lista[0] #deletando a partir do indice
-# slice -  fatiar 
-del lista[0:7]
-#    start : stop 
-lista_2 =  lista[0:7]
-
-# verifica 
-print(len(lista))# tamanho
-print(min(lista))# menor
-print(max(lista))# maior
-# lista.sort(reverse=True)
-lista.reverse()
+print(lista)
+lista.pop(0) # remove o valor do indice declarado
+print(lista)
+del lista[0] # remove o valor do indice declarado
 print(lista)
 
-lista3 = list(range(1,251))
 
-print(lista3)
+lista_2 =  lista[0:7]
+print(lista_2)
+
+del lista[0:7] # slice -  fatiar - remove o pedaço indicado da lista
+#    start : stop 
+print(lista)
+print()
+
+# VERIFICAR DADOS
+print('VERIFICAR DADOS') 
+print(len(lista))# tamanho da lista
+print(min(lista))# menor valor
+print(max(lista))# maior valor
+lista.sort() # ordena a lista em ordem crescente
+print(lista)
+lista.sort(reverse=True) # ordena em ordem decrescente
+print(lista)
+print()
+
+print(lista_2)
+lista_2.reverse() # inverte a ordem dos valores originais da lista
+print(lista_2) 
