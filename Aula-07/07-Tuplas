@@ -1,0 +1,47 @@
+def obter_coordenadas():
+    x = 10
+    y = 20
+    return x, y
+
+coordenadas = obter_coordenadas()
+x, y = coordenadas  # Desempacotando os valores da tupla
+
+# count(valor): Retorna o número de vezes que um determinado valor aparece na tupla.
+
+tupla = (1, 2, 2, 3, 4, 2)
+print(tupla.count(2))  # Saída: 3
+
+# index(valor): Retorna o índice da primeira ocorrência de um valor na tupla.
+
+tupla = (1, 2, 3, 4, 5)
+print(tupla.index(3))  # Saída: 2
+
+len(tupla) # Retorna o número de elementos na tupla.
+
+tupla = (1, 2, 3, 4, 5)
+print(len(tupla))  # Saída: 5
+
+sorted(tupla) # Retorna uma nova lista ordenada a partir dos elementos da tupla.
+
+tupla = (5, 3, 1, 4, 2)
+lista_ordenada = sorted(tupla)
+print(lista_ordenada)  # Saída: [1, 2, 3, 4, 5]
+
+max(tupla) 
+min(tupla) # Retorna o maior e o menor valor na tupla, respectivamente.
+
+tupla = (5, 3, 1, 4, 2)
+print(max(tupla))  # Saída: 5
+print(min(tupla))  # Saída: 1
+
+tuple(iterável) # Converte um iterável em uma tupla.
+
+lista = [1, 2, 3]
+tupla = tuple(lista)
+print(tupla)  # Saída: (1, 2, 3)
+
+# unpacking: Permite atribuir os elementos de uma tupla a variáveis individuais.
+
+tupla = (1, 2, 3)
+a, b, c = tupla
+print(a, b, c)  # Saída: 1 2 3
